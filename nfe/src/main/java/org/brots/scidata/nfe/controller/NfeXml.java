@@ -32,7 +32,7 @@ public class NfeXml {
 			    public boolean accept(File dir, String name) {
 			        return name.toLowerCase().endsWith("-nfe.xml");
 			    }
-			});
+			}); 
 			
 			// Se mão possui xml	
 			if (listXml.length == 0) {
